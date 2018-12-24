@@ -1,27 +1,27 @@
-imove v1-beta
+robowizard v1-beta
 
-This is a script to move user profile data between systems in an automated fashion.
+This is a robocopy assistant utlity to help soften the robocopy cli tool, without neutering it.
 
 USAGE:
 
 -> To back-up profile:
 
 	1) Log in as the user whose profile you wish to migrate.
-	2) Place umove.bat anywhere on the source system.
-	3) Run umove.bat as administrator, follow prompts...
-	*4) Copy umove.bat into the umovedata directory, to readily integrate folders onto new system
+	2) Place robowizard.bat anywhere on the source system.
+	3) Run robowizard.bat as administrator, choose quick transfer, follow prompts
+	*4) Copy robowizard.bat into the robowizarddata directory, to readily integrate folders onto new system
 	
 -> To restore a transferred profile:
 
 	1) Log in as the user whose profile you wish to import.
-	2) Place umove.bat anywhere on the source system.
-	3) Run umove.bat as administrator, follow prompts...
+	2) Place robowizard.bat anywhere on the source system.
+	3) Run robowizard.bat as administrator, choose quick transfer, follow prompts
 
 What it actually does:
 
 	This script just copies the 5 most commonly used user data directories on Windows systems (Desktop, 
 	Documents, Music, Pictures, Videos) to a target of the user's choosing, at which point the user can
-	place umove.bat into the root of the User's directory on the new machine and run it to copy over the
+	place robowizard.bat into the root of the User's directory on the new machine and run it to copy over the
 	contents of the old user profile.
 
 	This script utilizes the internal Windows utility Robocopy to execute it's copy jobs. They are non-
