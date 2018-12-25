@@ -9,7 +9,7 @@ USAGE:
 	1) Log in as the user whose profile you wish to migrate.
 	2) Place robowizard.bat anywhere on the source system.
 	3) Run robowizard.bat as administrator, choose quick transfer, follow prompts
-	*4) Copy robowizard.bat into the robowizarddata directory, to readily integrate folders onto new system
+	*4) Copy robowizard.bat into the destination directory, to readily integrate folders onto new system
 	
 -> To restore a transferred profile:
 
